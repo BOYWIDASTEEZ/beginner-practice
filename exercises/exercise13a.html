@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Email Designs</title>
+  <style>
+    .div {
+      font-family: Arial;
+    }
+
+    .container{
+      border: none;
+      border-radius: 4px;
+      width: 350px;
+      box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.25);
+      margin-top: 30px;
+      margin-left: 30px;
+      padding-top: 10px;
+      padding-bottom: 25px;
+      padding-right: 15px;
+      padding-left: 15px;
+    }
+
+    .inbox-label{
+      font-family: arial;
+      font-size: 14px;
+      color: rgb(120, 120, 120);
+    }
+
+    .email{
+      background-color: lghtblue;
+      align-items: center;
+      display: flex;
+      flex-direction: row;
+      margin-top: 20px;
+    }
+
+    .sender-picture-container{
+      background-color: lghtcoral;
+      width: 50px;
+      height: 50px;
+      margin-right: 8px;
+    }
+
+    .sender-picture{
+      width: 50px;
+      height: 50px;
+      border-radius: 25px;
+      object-fit: cover;
+      object-position: left;
+    }
+
+    .email-content{
+      margin-left: 2px;
+    }
+
+    .sender-name-time-container{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      margin-bottom: 3px;
+      justify-content: space-between;
+    }
+
+    .sender-name{
+      font-family: arial;
+      font-size: 16px;
+      font-weight: bold;
+    }
+
+    .timestamp{
+      font-family: arial;
+      font-size: 12px;
+      color: rgb(120, 120, 120);  
+    }
+
+    .email-heading{
+      font-family: arial;
+      font-weight: bold;
+      font-size: 14px;
+      margin-bottom: 3px;
+    }
+
+    .email-body{
+      font-family: arial;
+      font-size: 14px;
+      color: rgb(120, 120, 120);
+    }
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="inbox-label">
+      ALL INBOXES
+    </div>
+    <div class="email">
+      <div class="sender-picture-container">
+        <img class="sender-picture" src="cat.jpg">
+      </div>
+      <div class="email-content">
+        <div class="sender-name-time-container">
+          <div class="sender-name">Chewy Promotions</div>
+          <div class="timestamp">4:58 PM</div>
+        </div>
+        <div class="email-heading">Biggest sales of the year!</div>
+        <div class="email-body">Hey there! We're writing to tell you about our...</div>
+      </div>
+   </div> 
+   
+   <div class="email">
+    <div class="sender-picture-container">
+      <img class="sender-picture" src="styles/thumbnails/kitty-cat-kitten-pet-45201.jpeg">
+    </div>
+    <div class="email-content">
+      <div class="sender-name-time-container">
+        <div class="sender-name">Best Buy</div>
+        <div class="timestamp">12:32 PM</div>
+      </div>
+      <div class="email-heading">Your Best Buy eReceipt</div>
+      <div class="email-body">Thank you for shopping at Best Buy, here is...</div>
+    </div>
+   </div> 
+   
+   <div class="email">
+    <div class="sender-picture-container">
+      <img class="sender-picture" src="styles/thumbnails/OIPP.jpeg">
+    </div>
+    <div class="email-content">
+      <div class="sender-name-time-container">
+        <div class="sender-name">Netflix</div>
+        <div class="timestamp">9:00 AM</div>
+      </div>
+      <div class="email-heading">Here's what's coming soon to Netflix</div>
+      <div class="email-body">Brand new movies and shows, old favorites...</div>
+    </div>
+   </div>     
+  </div>
+</body>
+</html>

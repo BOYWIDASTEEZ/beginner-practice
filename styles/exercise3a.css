@@ -1,0 +1,96 @@
+.stretch-button{
+  background-color: green;
+  color: white;
+  border: none;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  cursor: pointer;
+
+  margin-right: 10px;
+  margin-left: 10px;
+  padding-right: 18px;
+  padding-left: 18px;
+  font-size: 17px;
+  transition: padding 0.15s,
+  margin 0.15s;
+}
+.stretch-button:hover{
+  padding-left: 26px;
+  padding-right: 26px;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+.tahoma-font{
+  font-family: tahoma;
+  margin-top: 60px;
+  margin-bottom: 0px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.text-heading{
+  font-family: Arial;
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+.text-body{
+  color: rgb(209, 2, 2);
+  margin-top: 5px;
+  font-family: Arial;
+  font-style:italic;
+}
+.html-text{
+  font-family: Verdana;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 0;
+}
+.body-text{
+  font-family: Verdana;
+  font-size: 13px;
+  color:rgb(96, 96, 96);
+  margin-top: 3px;
+}
+.text-description{
+  font-family: Verdana;
+  font-size: 13px;
+  width: 230px;
+  line-height: 18px;
+}
+.getstarted-button{
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.getstarted-span{
+  font-family: Verdana;
+  font-size: 12.5px;
+}
+.shopping-text{
+  font-family: Arial;
+  font-size: 23px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 0;
+}
+.applework-text{
+  font-family: Arial;
+  font-size: 12.5px;
+  text-align: center;
+  margin-top: 16px;
+  margin-bottom: 0;
+}
+.learn-text{
+  font-family: Arial;
+  font-size: 12.5px;
+  text-align: center;
+  color: rgb(7, 7, 199);
+  margin-top: 16px;
+  margin-bottom: 60px;
+}

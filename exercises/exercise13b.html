@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Twitter Design</title>
+  <style>
+    div {
+      font-family: arial;
+    }
+
+    .container{
+      display: flex;
+      flex-direction: row;
+      margin-top: 30px;
+      margin-left: 30px;
+    }
+
+    .user-picture-container{
+      background-color: lghtblue;
+      margin-right: 10px;
+    }
+
+    .user-picture{
+      width: 50px;
+      height: 50px;
+      border-radius: 25px;
+      object-fit: cover;
+      object-position: left;
+    }
+
+    .tweet-container{
+      background-color: lghtpink;
+    }
+    
+    .user-name{
+      font-size: 15px;
+      font-weight: bold;
+      margin-bottom: 4px;
+    }
+
+    .user-handle{
+      font-weight: 500;
+      font-size: 15px;
+      color: rgb(120, 120, 120);
+    }
+
+    .tweet-content{
+      width: 350px;
+      line-height: 20px;
+    }
+
+    .link-container{
+      display: flex;
+      flex-direction: row;
+      margin-top: 15px;
+      border-width: 1px;
+      border-style: solid;
+      border-radius: 15px;
+      border: none;
+      width: 350px;
+      height: 98px;
+      background-color: rgb(214, 210, 210);
+      padding-top: 1.5px;
+      padding-bottom: 1.5px;
+      padding-right: 1px;
+    }
+
+    .link-content{
+      width: 300px;
+      background-color: white;
+      margin-left: 90px;
+      border-top-right-radius: 14px;
+      border-bottom-right-radius: 14px;
+      padding-top: 16px;
+      padding-left: 18px;
+    }
+
+    .link-name{
+      color: rgb(120, 120, 120);
+      margin-bottom: 4px;
+    }
+
+    .link-body{
+      line-height: 22px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="user-picture-container">
+      <img class="user-picture" src="cat.jpg">
+    </div>
+    <div class="tweet-container">
+     <div class="user-name">supersimple.dev <span class="user-handle">@SuperSimpleDev</span></div>
+     <div class="tweet-content">What is backend web development? A complete overview. New video is up!</div>   
+     <div class="link-container">
+      <div class="link-content">
+        <div class="link-name">youtube.com</div>
+        <div class="link-body">Backend web development - a complete overview (2021)</div>
+      </div>
+     </div>   
+    </div>
+  </div>
+</body>
+</html>

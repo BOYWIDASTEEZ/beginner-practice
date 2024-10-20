@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Discord Sidebar</title>
+  <style>
+    body {
+      height: 3000px;
+    }
+
+   .first-sidebar{
+    background-color: rgb(65, 65, 65);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 170px;
+    padding-top: 20px;
+    padding-left: 75px;
+   }
+
+   .header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+   }
+
+   .info{
+    font-family: arial;
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+   }
+
+   .plus-symbol{
+    font-family: arial;
+    font-size: 20px;
+    color: rgb(120,120,120);
+    margin-right: 20px;
+   }
+
+   .new-videos{
+    font-family: arial;
+    font-size: 12px;
+    color: rgb(120, 120, 120);
+    margin-bottom: 12px;
+   }
+
+   .updates{
+    font-family: arial;
+    font-size: 12px;
+    color: rgb(120, 120, 120);
+    margin-bottom: 12px;
+   }
+
+   .faq{
+    font-family: arial;
+    font-size: 12px;
+    color: rgb(120, 120, 120);
+   }
+
+   .second-sidebar{
+    background-color: rgb(40, 40, 40);
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+   }
+
+   .first-picture{
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+    object-fit: cover;
+    object-position: left;
+    margin-bottom: 6px;
+   }
+
+   .second-picture{
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+    object-fit: cover;
+    margin-bottom: 6px;
+   }
+
+   .third-picture{
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+    object-fit: cover;
+   }
+  </style>
+</head>
+<body>
+  <div class="first-sidebar">
+    <div class="header">
+      <div class="info">INFO</div>
+      <div class="plus-symbol">+</div>
+    </div>
+    <div class="new-videos">#  new-videos</div>
+    <div class="updates">#  updates</div>
+    <div class="faq">#  faq</div>
+
+    <div class="second-sidebar">
+     <img class="first-picture" src="styles/thumbnails/cat.jpg">
+     <img class="second-picture" src="styles/thumbnails/OIPP.jpeg">
+     <img class="third-picture" src="styles/thumbnails/Scottish-fold-cat.webp">
+    </div>
+  </div>  
+</body>
+</html>

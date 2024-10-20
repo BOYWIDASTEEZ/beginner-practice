@@ -1,0 +1,148 @@
+.requestnow-button{
+  background-color: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-right: 25px;
+  margin-bottom: 80px;
+  transition: opacity 0.15s;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 16px;
+  padding-left: 16px;
+  vertical-align: top;
+}
+.requestnow-button:hover{
+  opacity: 0.8;
+}
+.requestnow-button:active{
+  opacity: 0.5;
+}
+
+.addtocart-button{
+  background-color: rgb(255, 216, 20);
+  color: black;
+  border: none;
+  border-radius: 18px;
+  cursor: pointer;
+  margin-right: 25px;
+  transition: background-color 0.15s;
+  vertical-align: top;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-right: 55px;
+  padding-left: 55px;
+}
+.addtocart-button:hover{
+  background-color: rgb(245,205,3);
+}
+
+.signup-button{
+  background-color: rgb(46, 164, 79);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 13px;
+  cursor: pointer;
+  transition: box-shadow 0.15s;
+  vertical-align: top;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-right: 20px;
+}
+.signup-button:hover{
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.15);
+}
+
+.getstarted-button{
+  background-color: rgb(121, 82, 179);
+  color: white;
+  border: none;
+  border-radius: 3px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-right: 7px;
+  margin-bottom: 50px;
+  transition: background-color 0.15s;
+  vertical-align: top;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.getstarted-button:hover{
+  background-color: rgb(111,71,163);
+}
+
+.download-button{
+  background-color: white;
+  color: rgb(108, 117, 125);
+  border-radius: 2px;
+  border-color: rgb(108, 117, 125);
+  border: solid;
+  border-width: 1px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-right: 30px;
+  transition: background-color 0.15s,
+  color 0.15s;
+  vertical-align: top;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.download-button:hover{
+  background-color: rgb(108, 117, 125);
+  color: white;
+}
+
+.apply-button{
+  background-color: rgb(10, 102, 194);
+  color: white;
+  border: none;
+  border-radius: 18px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.15s;
+  vertical-align: top;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 24px;
+  padding-left: 24px;
+  margin-right: 10px;
+}
+.apply-button:hover{
+  background-color:rgb(4, 73, 141) ;
+}
+
+.save-button{
+  background-color: white;
+  color:rgb(10, 102, 194);
+  border: solid;
+  border-color: rgb(10, 102, 194);
+  border-width: 1px;
+  border-radius: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.15s,
+  color 0.15s;
+  vertical-align: top;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 24px;
+  padding-left: 24px;
+
+}
+.save-button:hover{
+  background-color: rgb(212, 228, 245);
+  border-width: 2px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-right: 23px;
+  padding-left: 23px;
+}
